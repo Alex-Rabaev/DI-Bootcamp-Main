@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  border: 15px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+body {
+  background-image: url("Thor.jpg");
+  background-size: cover;
+}
+
+.image {
+  width: 30px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+nav li {
+  margin-right: 20px;
+}
+nav a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.text {
+  margin-top: 20%;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  color: rgb(156, 211, 211);
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12;
+  color: azure;
+}
